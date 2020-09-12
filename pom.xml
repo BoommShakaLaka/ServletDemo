@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.zf.servlet</groupId>
-  <artifactId>servletTest</artifactId>
+  <artifactId>ServletDemo</artifactId>
   <version>1.0.1</version>
   <packaging>war</packaging>
 
-  <name>servletTest</name>
+  <name>ServletDemo</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
