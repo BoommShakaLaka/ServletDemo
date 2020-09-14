@@ -14,7 +14,7 @@ import java.net.URLEncoder;
  * Servlet implementation class HelloServlet
  * @author zf
  */
-@WebServlet("/HelloForm")
+//@WebServlet("/HelloForm")
 public class HelloForm extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

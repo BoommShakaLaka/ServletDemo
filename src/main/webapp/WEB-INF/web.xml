@@ -37,6 +37,10 @@
         <servlet-name>SessionTrack</servlet-name>
         <servlet-class>session.SessionTrack</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>fileUpload.UploadServlet</servlet-class>
+    </servlet>
     <!--&lt;!&ndash; servlet mappings &ndash;&gt;-->
     <!--<servlet-mapping>-->
     <!--<servlet-name>HelloWorld</servlet-name>-->
@@ -54,7 +58,10 @@
         <servlet-name>SessionTrack</servlet-name>
         <url-pattern>/TomcatTest/SessionTrack</url-pattern>
     </servlet-mapping>
-
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/TomcatTest/UploadServlet</url-pattern>
+    </servlet-mapping>
 
     <!--welcome-file-list-->
     <welcome-file-list>
